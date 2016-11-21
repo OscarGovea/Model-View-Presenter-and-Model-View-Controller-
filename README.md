@@ -26,3 +26,7 @@ En este patrón es el encargado de coordinar la implementación de la vista y el
  - Model
 Es el proveedor de los datos que queremos mostrar en la vista, si estuviéramos usando Clean Architecture el modelo sería un interactor que implemente algún caso de uso.
 ![alt text](https://github.com/OscarGovea/Model-View-Presenter-and-Model-View-Controller-/blob/master/mvp.png)
+
+## Model View Presenter (MVP) vs Model View Controller (MVC)
+- El controlador determina con cual vista es mostrado.
+- El presentador se comunica con la vista hablando con la interfaces de la vista
